@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background-color: yellow;
+}
+
+/* Predefined styles */
+
+.header,
+.footer {
+  background-color: #1f2937;
+}
+
+.main-heading,
+.logo {
+  color: #f9faf8;
+}
+
+.main-heading,
+.heading-info {
+  font-weight: 900;
+}
+
+.main-heading {
+  font-size: 48px;
+}
+
+.hero-text,
+.btn-hero {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+button,
+.cta-blue {
+  background-color: #3882f6;
+}
+
+.heading-info {
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 200;
+  color: #1f2937;
+}
+
+/* My styles */
+
+/* header */
+
+.header {
+  padding: 10px 400px;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.header-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  padding-bottom: 75px;
+}
+.hero-container {
+  width: 50%;
+}
+
+.main-heading {
+  margin-bottom: 10px;
+}
+
+.hero-text {
+  margin-bottom: 10px;
+}
+
+.img-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hotpink;
+  width: 50%;
+}
+
+/* main */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.info,
+.quote,
+.cta {
+  flex-grow: 1;
+}
+
+.info,
+.cta {
+  background-color: #fff;
+}
+
+/* info */
+
+/* general */
+
+button {
+  border-radius: 10px;
+  padding: 5px 20px;
+  border: none;
+  font-weight: bold;
+}
